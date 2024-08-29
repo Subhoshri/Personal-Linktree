@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+
+.dp{
+    height: 200px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 8%;
+    
+}
+
+  .links{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .links a, li{
+    height: 2.75rem;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 1.5rem 0;
+    border-radius: 15px;
+  }
+
+  .name {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .name_highlight{
+    background: #ed8484;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .name_highlight:hover{
+    background-color: #f2a7a7 !important;
+    cursor: pointer;
+  }
+
+  .link span{
+    width: 70%;
+    text-align: center;
+  }
+  
+  .link img{
+    height: 2rem;
+    aspect-ratio: 1;
+  }
+
+  .link:hover{
+    background-color: #ed8484 !important;
+    color: #000 !important;
+  }
+  .links__card1{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #EBC7E8;
+    color: white;
+  }
+
+  .links__card2{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #eba2e5;
+    color: white;
+  }
+
+  .links__card3{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #d27fcb;
+    color: white;
+  }
+
+  .links__card4{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #bf56b6;
+    color: white;
+  }
+
+  .links__card5{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #993590;
+    color: white;
+  }
+
+  .links__card6{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #6e1969;
+    color: white;
+  }
+
+  .links__card7{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #520a4c;
+    color: white;
+  }
+
+  .links__card8{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #31032c;
+    color: white;
+  }
+
+  .links__card9{
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #1f001c;
+    color: white;
+  }
+
+
+  .footer{
+    padding-block: 2.5rem;
+    background-color: var(--container-color);
+  }
+  
+  .footer__content{
+    row-gap: 3.5rem;
+  }
+  
+  .footer__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+  }
+  
+  
+  .footer__group,
+  .name-link{
+    display: flex;
+  }
+  
+  .footer__group{
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+  }
+  
+  .name-link{
+    color: #000;
+    font-size: 1.25rem;
+    align-items: center;
+    transition: color .2s, transform .2s;
+    row-gap: 2.5rem;
+  }
+  
+  .name-link:hover{
+    color: #000;
+    transform: translateY(-.25rem);
+  }
+  
+  .footer__copy{
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+  .link {
+      width: 100%;
+  }
+  }
+  @media (min-width: 576px) {
+  .container {
+      max-width: 540px;
+  }
+  }
+  @media (max-width: 768px){
+    .link{
+        width: 90%;
+      }
+  }
+  @media (max-width:700px){
+    .link{
+        width: 85%;
+        align-content: center;
+      }
+  }
