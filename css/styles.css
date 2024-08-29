@@ -211,7 +211,10 @@ a{
         width: 90%;
       }
   }
-  @media (max-width:700px){
+  @media (max-width:640px){
+    .links a,li{
+        width: 400px;
+    }
     .link{
         width: 85%;
         align-content: center;
