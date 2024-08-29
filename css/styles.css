@@ -64,7 +64,7 @@ a{
   }
 
   .link span{
-    width: 70%;
+    width: 80%;
     text-align: center;
   }
   
@@ -214,6 +214,10 @@ a{
   @media (max-width:640px){
     .links a,li{
         width: 400px;
+    }
+    .link span{
+        width: 70%;
+        text-align: center;
     }
     .link{
         width: 85%;
